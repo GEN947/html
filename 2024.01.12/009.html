@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>    
+    <style>
+        table, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            /*
+                border-collapse: separate;
+                본래는 separate 상태
+                separate는 줄을 따로 그은 상태
+            */
+        }
+        table{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col width = "100px">
+            <col width = "200px">
+            <col width = "300px">
+            <!-- 너비를 설정하는 가장 간단한 방법 -->
+        </colgroup>
+        <thead>
+            <tr>
+                <th>번호</th><th>할일</th><th>등록일</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>자바공부</td>
+                <td>2024-01-12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>놀기</td>
+                <td>2024-01-12</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

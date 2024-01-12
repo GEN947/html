@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+}
+/* 전체 선택자: 우선순위0번 주로 css초기화(reset)할 때 쓰임 */
+.red{
+    color: red;
+}
