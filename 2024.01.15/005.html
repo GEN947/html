@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> 기초 선택자 정리 </title>
+        <style>
+            * { /* 전체 선택자. 우선순위는 0, 주로 리셋 목적으로 쓰인다 */ margin: 0; }
+            div { /* 태그 선택자. 우선순위는 1, 단독사용 금지*/ font-size: 2em; }
+            .red { /* 우선순위 10 */ color: red;}
+            div.red { /* 우선순위  */ color: blue;} /* div 중에서 .red가 걸린놈 */
+            div .red { /* 우선순위  */ } /* 하위선택자: div의 자식 중에 .red가 걸린 놈 */
+            
+        </style>
+    </head>
+    <body>
+        <div id="me">
+            <div class="red">자식</div>
+            <div>
+                <div>손주</div>
+            </div>
+        </div>
+    </body>
+</html>7

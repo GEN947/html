@@ -1,2 +1,0 @@
-https://www.w3schools.com/                      - 기본 w3schools
-https://www.w3schools.com/html/default.asp      - html w3schools
