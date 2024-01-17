@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            width: 20em;
+        }
+        td{
+            text-align: center;
+        }
+        table, td{
+            border: 1px solid black; border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--
+        table tr -> table 안의 모든 tr
+        table>tr -> table 바로 하위 tr
+    -->
+    <!-- table>tr*4>td*3 -->
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>성별</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>20</td>
+                <td>남</td>
+            </tr>
+            <tr>
+                <td>전우치</td>
+                <td>21</td>
+                <td>남</td>
+            </tr>
+            <tr>
+                <td>임꺽정</td>
+                <td>23</td>
+                <td>남</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
